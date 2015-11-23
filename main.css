@@ -1,3 +1,4 @@
+/*
         html,
         body,
         h1,
@@ -12,30 +13,58 @@
             border: 0;
             margin: 0;
         }
-        
-        body {
-            padding: 20px 20px 20px 20px;
-        }
-        
-        h1 {
-            margin: 10px 0 15px 0;
-        }
-        
-        h2 {
-            margin: 10px 0 20px 0;
-        }
-        
-        h3 {
-            margin: 10px 0 10px 0;
-            border-bottom: 1px solid #CCCCCC;
-            padding-bottom: 3px;
-        }
-        
-        ul {
-            padding: 0 0 0 50px;
-        }
-        .nav a {
-            color: #0000af;
-            text-decoration: underline;
-            padding: 2px;
-        }
+*/
+
+
+/*   * { } Targets everything. */
+/* Added a Font-family */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: serif;
+}
+
+/* Added a Background-color */
+
+body {
+    padding: 20px 20px 20px 20px;
+    background-color: #ffffea;
+}
+
+
+/* Increased Font-size */
+
+h1 {
+    font-size: 40px;
+    margin: 10px 0 15px 0;
+}
+
+h2 {
+    margin: 10px 0 20px 0;
+}
+
+h3 {
+    margin: 10px 0 10px 0;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 3px;
+}
+
+ul {
+    padding: 0 0 0 50px;
+}
+
+.nav a {
+    color: #0000af;
+    text-decoration: underline;
+    padding: 2px;
+}
+
+
+/* Added a hover property */
+
+.nav a:hover {
+    color: #33adff;
+    text-decoration: none;
+}
